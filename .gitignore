@@ -40,3 +40,45 @@ Thumbs.db
 .actrc*
 
 __pycache__/
+
+# Python #
+##########
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+
+# Virtual environments #
+########################
+venv/
+env/
+ENV/
+.venv/
+
+# IDE and Editor #
+##################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing #
+###########
+.pytest_cache/
+.tox/
+htmlcov/
+.hypothesis/
+.coverage
+coverage.xml
+*.cover
+
+# Environment variables #
+#########################
+.env
+.env.local
